@@ -1,0 +1,8 @@
+conf t
+line console 0
+login local
+end
+conf t
+line vty 0 4
+login local
+end
